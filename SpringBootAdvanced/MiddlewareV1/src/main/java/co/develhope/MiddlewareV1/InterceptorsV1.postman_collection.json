@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "c93b03ae-df3d-4afc-8220-3a2b592f2c29",
+		"name": "InterceptorsV1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49804350",
+		"_collection_link": "https://schioppo7-6524324.postman.co/workspace/Davide's-Workspace~f6124ed0-315e-477d-8c87-cf6d1e33e45c/collection/49804350-c93b03ae-df3d-4afc-8220-3a2b592f2c29?action=share&source=collection_link&creator=49804350"
+	},
+	"item": [
+		{
+			"name": "NowTime",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/time",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"time"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Legacy",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
