@@ -1,0 +1,24 @@
+
+environment: default
+server:
+  port: 5000
+
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+
+environment: test
+server:
+  port: 4000
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+environment: prod
+server:
+  port: 7070
